@@ -36,11 +36,6 @@ const searchStore = useSearchStore()
 </script>
 
 <style scoped>
-@font-face {
-  font-family: 'Wild Wood';
-  src: url('/fonts/Jfwildwood-ldYZ.ttf') format('truetype');
-}
-
 .navbar {
   position: sticky;
   top: 0;
@@ -48,7 +43,7 @@ const searchStore = useSearchStore()
   font-family: 'Work Sans', sans-serif;
 }
 header {
-  background: var(--main-green-dark);
+  background: var(--main-green-darker);
 }
 .container {
   width: 80%;
@@ -120,7 +115,7 @@ nav a {
 
   position: relative;
   padding: 5px 0;
-
+  z-index: 3;
   transition: color 0.2s ease;
 }
 

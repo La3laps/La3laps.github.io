@@ -98,8 +98,8 @@ function nextPage() {
   justify-content: center;
   gap: 8px;
   padding: 10px 14px;
-  border-radius: 999px;
-  background: var(--main-green-dark);
+  border-radius: 10px;
+  background: var(--main-green-darker);
   border: 1px solid var(--main-green-light);
   backdrop-filter: blur(6px);
 }
@@ -121,7 +121,7 @@ function nextPage() {
 }
 
 .page-btn.active {
-  background: var(--main-green-light);
+  background: white;
   color: #000;
 }
 
